@@ -1,7 +1,7 @@
 <div align="center">
   
-# NETWORKWALKS-B084-WEEK1-PM1
-This project involves setting up an efficient cybersecurity lab environment using VirtualBox, Kali Linux and a private NAT network. 
+# NETWORKWALKS-B084-WEEK2-PM1-2-5
+This project involves conducting reconnaissance on an authorized domain in a controlled environment. 
 </div>
 
 # 1. Liability Disclaimer
@@ -18,14 +18,14 @@ The table below lists each tool used in this report and its purpose.
 
 | Tool | Purpose |
 |---|---|
-| Kali Linux & Windows | Operating systems used for reconnaissance activities             |
-| WHOIS                | Find domain registration details (owner, dates, name servers).   |
-| whatweb              | Fingerprint web technologies (server, CMS, plugins, IP).         |
+| Kali Linux / Windows | Operating systems used for reconnaissance activities           |
+| WHOIS                | Find any domain registration details (owner, dates, name servers).   |
+| whatweb              | Fingerprint any web technologies         |
 | nslookup             | Resolve the domain name to its IP address using DNS.             |
 | curl -I              | Read the HTTP response headers of the website.                   |
-| wafw00f              | Detect whether a Web Application Firewall protects the site.     |
+| wafw00f              | Detects any Web Application Firewall protecting a site or domain.     |
 | dnsrecon             | Enumerate all DNS records (NS, MX, SPF, TXT, SRV).               |
-| Zenmap (Nmap GUI)    | Scan the local subnet to find live hosts, IPs and MAC addresses. |
+| Zenmap (Nmap GUI)    | Scans the local subnet to find live hosts, IPs and MAC addresses. |
 | Windows CMD          | Local IP and MAC address identification                          |
 
 # 4. Activities Performed
