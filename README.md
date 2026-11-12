@@ -66,4 +66,4 @@ Cybersecurity Intern | Networkwalks B084
 
 https://www.linkedin.com/in/ali-fares-86870733a/
 ## Project Information
-Program Name: Cybersecurity at Networkwalks | Week: 02 | Project: Cybersecurity Lab Setup
+Program Name: Cybersecurity at Networkwalks | Week: 02 | Project: Domain Fingerprinting & Reconnaissance
