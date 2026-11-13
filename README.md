@@ -22,7 +22,7 @@ The purpose of these exercises was to develop practical skills in information ga
 
 # 3. Tools Used
 
-The table below lists each tool used in this report and its purpose.
+The table below lists each tool used in this report and each of their respective purpose.
 
 | Tool | Purpose |
 |---|---|
