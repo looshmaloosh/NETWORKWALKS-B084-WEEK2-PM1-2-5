@@ -39,7 +39,14 @@ The table below lists each tool used in this report and each of their respective
 # 4. Activities Performed
 
 ## 4.1 Footprinting & Reconnaissance
-(BUFFER)
+
+I performed reconnaissance on the networkwalks.com domain using six Kali Linux tools: WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, and DNSRecon. Each tool was used to gather publicly available information about the domain and its infrastructure.
+
+WHOIS identified the domain's registrar, registration dates, and name servers, while WhatWeb revealed website technologies including WordPress, Apache, Bootstrap, and jQuery. Nslookup resolved the domain to 192.232.216.135, and Curl retrieved HTTP headers, including the WordPress REST API endpoint /wp-json/.
+
+Wafw00f identified ModSecurity (SpiderLabs) as the website's Web Application Firewall, while DNSRecon revealed several DNS records, including A, NS, MX, TXT/SPF, and SRV records.
+
+These findings demonstrate how publicly available information can reveal details about a website's technologies, infrastructure, and security configuration.
 
 ## 4.2 Footprinting & Reconnaissance
 (BUFFER)
