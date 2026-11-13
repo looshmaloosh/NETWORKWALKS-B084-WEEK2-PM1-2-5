@@ -46,7 +46,26 @@ The table below lists each tool used in this report and each of their respective
 
 ## 4.3 Network Scanning with Zenmap
 
-(BUFFER)
+I used Zenmap on Windows to perform network discovery and identify active devices within my local network. The activity involved identifying network configurations, performing ping scans, and recording available IP and MAC addresses.
+
+I first used the ipconfig command to identify my network interfaces. My home LAN address was 192.168.0.147, belonging to the 192.168.0.0/24 subnet. I also identified separate virtual networks associated with VirtualBox and VMware.
+
+Ping Scan & Host Discovery
+
+I performed a ping scan against the VirtualBox host-only network using:
+nmap -sn 192.168.56.0/24
+
+The scan covered 256 IP addresses and identified one active host (192.168.56.1), corresponding to my Windows ethernet adapter. The adapter's MAC address was recorded as 0A-00-27-00-00-3C.
+
+I also scanned my home LAN (192.168.0.0/24), which identified multiple household devices, including smartphones and a PlayStation 5.
+
+Network Topology
+
+Following the scan, I used Zenmap's Topology feature to visualise the VirtualBox host-only network and exported the results as a PDF.
+
+The topology displayed localhost and 192.168.56.1, consistent with the scan results.
+
+Overall, this activity demonstrated how network scanning can identify active hosts, reveal network addressing information, and distinguish between physical and virtual network environments.
 
 # 5. Risk Analysis / Impact
 
