@@ -136,14 +136,28 @@ These recommendations address potential risks identified during reconnaissance a
 
 # 7. Conclusion/Lessons Learned
 
-(BUFFER)
+During Week 2 of the NetworkWalks Cybersecurity Internship Program (B084), I completed practical activities focusing on footprinting, reconnaissance, Google Dorking, and network scanning.
+
+The first activity involved using six Kali Linux tools to gather publicly available information about the networkwalks.com domain. Through these tools, I learned how domain registration details, website technologies, DNS records, HTTP headers, and security mechanisms can be identified and analysed. These findings demonstrated how publicly available information can provide insight into a website's infrastructure and configuration.
+
+The Google Dorking activity involved using advanced search operators to identify publicly indexed resources, including potentially exposed IP camera interfaces and mathematics textbook directories. I recorded 20 results across both categories, which demonstrated how search engines can reveal publicly accessible information that may have security implications. However, these findings did not necessarily indicate confirmed vulnerabilities.
+
+The network scanning activity involved using Zenmap to identify active hosts within my local network. I learned how to identify network subnets, perform ping scans, record IP and MAC addresses, and generate a network topology. This also improved my understanding of the differences between physical and virtual networks.
+
+Throughout the exercises, I encountered several technical challenges involving network connectivity, DNS resolution, and tool compatibility. Troubleshooting these issues reinforced the importance of investigating errors, verifying results, and using alternative approaches when necessary.
+
+Overall, these activities strengthened my understanding of how information gathering and network discovery support cybersecurity assessments. I also learned the importance of documenting findings clearly, identifying potential risks, and providing appropriate security recommendations. All activities were conducted within the authorised scope of the internship, reinforcing the importance of ethical and responsible security testing.
 
 # 8. Evidences Collected
 (BUFFER)
 
 ## 9. Challenges
 
+Challenge 1: Kali Linux Network Connectivity
 
+My VirtualBox Kali Linux VM initially experienced connectivity issues due to a suspected conflict involving its manually configured IP address (10.0.0.2). This prevented successful DNS resolution and interrupted several reconnaissance commands.
+
+To resolve this, I switched the network configuration to DHCP, which automatically assigned 10.0.0.3 and restored internet connectivity.
 
 ## Author Information
 Ali Fares
