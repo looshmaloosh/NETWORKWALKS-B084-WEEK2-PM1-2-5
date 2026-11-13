@@ -54,16 +54,16 @@ I performed Google Dorking using advanced search operators such as intitle: and 
 Potentially Exposed IP Cameras
 | No | Link | Relevant Dork |
 |---|---|-------------------|
-|1|http://144.129.11.86:88/cgi-bin/guestimage.html|"Camera Live Image" inurl:"guestimage.html"|
-|2|http://208.105.211.147:9247/#view|intitle:”Live View / - AXIS|
-|3|http://109.233.191.130:8080/|inurl:view/view.shtml|
-|4|http://camp850.com/sub06/cam.php|intitle:”Live View / - AXIS 206M”|
-|5|http://82.127.206.236/axis-cgi/mjpg/video.cgi?resolution=704x480&camera=1&dummy=1620387728755|inurl:indexFrame.shtml Axis|
-|6|http://24.39.107.185:8000/view/viewer_index.shtml?id=4322|inurl:indexFrame.shtml Axis|
-|7|http://212.41.248.38/indexFrame.shtml?newstyle=One&cam=4|intitle:Axis 2400 video server|
-|8|http://31.132.43.196:81/indexFrame.shtml?newstyle=One&cam=4|intitle:"Live View / — AXIS" | inurl:view/view.shtml|
-|9|http://80.152.138.183/ViewerFrame|inurl:ViewerFrame?Mode=Refresh|
-|10|http://188.69.136.122/Pages/login.htm?0.8335860804563987|intitle:"NoVus IP camera" -com|
+|1|[DATA REDACTED]|"Camera Live Image" inurl:"guestimage.html"|
+|2|[DATA REDACTED]|intitle:”Live View / - AXIS|
+|3|[DATA REDACTED]/|inurl:view/view.shtml|
+|4|[DATA REDACTED]|intitle:”Live View / - AXIS 206M”|
+|5|[DATA REDACTED]|inurl:indexFrame.shtml Axis|
+|6|[DATA REDACTED]|inurl:indexFrame.shtml Axis|
+|7|[DATA REDACTED]|intitle:Axis 2400 video server|
+|8|[DATA REDACTED]|intitle:"Live View / — AXIS" | inurl:view/view.shtml|
+|9|[DATA REDACTED]|inurl:ViewerFrame?Mode=Refresh|
+|10|[DATA REDACTED]|intitle:"NoVus IP camera" -com|
 
 Mathematics Textbook Directories
 | No | Link | Relevant Dork |
@@ -80,6 +80,8 @@ Mathematics Textbook Directories
 |10|https://www.williamle.com/staticstuff/Textbooks/	|inurl: intitle:"Maths"|
 
 These results highlight how publicly accessible documents and directories can be located using search engines. While some resources may be intentionally public, others could reveal information that was not intended for public access.
+
+Note: Direct URLs to potentially exposed IP camera interfaces have been redacted to prevent the unnecessary disclosure of potentially private resources. 
 
 ## 4.3 Network Scanning with Zenmap
 
