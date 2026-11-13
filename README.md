@@ -121,9 +121,18 @@ The reconnaissance and network scanning activities identified several potential 
 
 # 6. Recommendations
 
-| No | Link | Relevant Dork |
-|---|---|-------------------|
+Based on the findings, the following recommendations could help reduce unnecessary information exposure and strengthen overall security posture.
+| Area | Recommendations |
+|---|----------------------|
+|Website Security|Regularly update WordPress, plugins, and server software to minimise known security vulnerabilities.|
+|Information Disclosure|Review publicly exposed information and limit unnecessary disclosure of software versions and configurations.|
+|DNS Security|Review DNS records regularly, remove outdated entries, and consider implementing DNSSEC (Domain Name System Security Extensions) when relevant.|
+|IP Camera Security|Enforce strong authentication, restrict public access, and limit camera interfaces to trusted networks.|
+|Document Exposure|Apply access controls to sensitive directories and review publicly indexed documents.|
+|Network Security|Maintain an inventory of connected devices, update firmware, and remove untrusted devices from critical systems|
+|WAF Management |Regularly update and review WAF rules to maintain protection against web-based threats.|
 
+These recommendations address potential risks identified during reconnaissance and network discovery. They are preventive measures rather than responses to confirmed vulnerabilities.
 
 # 7. Conclusion/Lessons Learned
 
