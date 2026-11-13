@@ -106,6 +106,8 @@ Overall, this activity demonstrated how network scanning can identify active hos
 
 # 5. Risk Analysis / Impact
 
+The reconnaissance and network scanning activities identified several potential security risks relating to information disclosure, publicly accessible resources, and network architecture visibility.
+
 | Finding | Potential Impact | Risk Level | Evidence |
 |---|---|-------------------|-----------------|
 |Website Technology Disclosure| Identified technologies such as WordPress and Apache could help attackers research known vulnerabilities affecting specific software versions.| Low | WhatWeb scan and Curl HTTP headers |
@@ -115,6 +117,7 @@ Overall, this activity demonstrated how network scanning can identify active hos
 | Publicly Indexed Documents | Unintentionally exposed directories could reveal sensitive documents or information. | Medium | Google Dorking Results |
 |Network Host Discovery | Identifying live devices and their IP addresses could help attackers map a network and locate potential targets | Medium | Zenmap Ping Scan and topology PDF |
 
+The reconnaissance and network scanning activities identified several potential security risks relating to information disclosure, publicly accessible resources, and network visibility.
 
 # 6. Recommendations
 
