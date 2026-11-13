@@ -6,7 +6,9 @@ This project involves conducting reconnaissance on an authorized domain in a con
 
 # 1. Liability Disclaimer
 
-(BUFFER)
+This report was prepared as part of the NetworkWalks Cybersecurity Internship Program (B084) for educational purposes. Written authorisation was obtained prior to conducting the security assessments.
+All activities were performed within the authorised scope, focusing on footprinting, reconnaissance, and network scanning. No attempts were made to exploit vulnerabilities, disrupt services, or gain unauthorised access.
+The findings are intended solely for educational and security awareness purposes and should not be interpreted as confirmed vulnerabilities unless supported by evidence.
 
 # 2. Introduction
 
