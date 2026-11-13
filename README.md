@@ -109,11 +109,12 @@ Overall, this activity demonstrated how network scanning can identify active hos
 | Finding | Potential Impact | Risk Level | Evidence |
 |---|---|-------------------|-----------------|
 |Website Technology Disclosure| Identified technologies such as WordPress and Apache could help attackers research known vulnerabilities affecting specific software versions.| Low | WhatWeb scan and Curl HTTP headers |
-|
+|DNS & Domain Information | Publicly available DNS records reveal hosting, name server, and email infrastructure information that could assist attackers with learning about the domain | Low | WHOIS, Nslookuo, and DNSRecon screenshots|
+|Public IP Cameras | Publicly indexed camera interfaces could create privacy risks if authentication and access controls are misconfigured. | High | Google Dorking results |
+|WAF Detection | ModSecurity was detected, indicating an additional security measure rather than a confirmed vulnerability. | Low | Wafw00f scan screenshot |
+| Publicly Indexed Documents | Unintentionally exposed directories could reveal sensitive documents or information. | Medium | Google Dorking Results |
+|Network Host Discovery | Identifying live devices and their IP addresses could help attackers map a network and locate potential targets | Medium | Zenmap Ping Scan and topology PDF |
 
-Low
-
-WhatWeb scan and Curl HTTP headers
 
 # 6. Recommendations
 
