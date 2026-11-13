@@ -49,6 +49,9 @@ Wafw00f identified ModSecurity (SpiderLabs) as the website's Web Application Fir
 These findings demonstrate how publicly available information can reveal details about a website's technologies, infrastructure, and security configuration.
 
 ## 4.2 Footprinting with Google Dorking
+I performed Google Dorking using advanced search operators such as intitle: and inurl: to identify publicly indexed resources. The investigation focused on two categories: potentially exposed IP cameras and mathematics textbook directories.
+
+Potentially Exposed IP Cameras
 | No | Link | Relevant Dork |
 |---|---|-------------------|
 |1|http://144.129.11.86:88/cgi-bin/guestimage.html|"Camera Live Image" inurl:"guestimage.html"|
@@ -62,6 +65,7 @@ These findings demonstrate how publicly available information can reveal details
 |9|http://80.152.138.183/ViewerFrame|inurl:ViewerFrame?Mode=Refresh|
 |10|http://188.69.136.122/Pages/login.htm?0.8335860804563987|intitle:"NoVus IP camera" -com|
 
+Mathematics Textbook Directories
 | No | Link | Relevant Dork |
 |---|---|-------------------|
 |1|https://education.giakonda.org.uk/Maths/|intitle:"Index of /maths"|
@@ -75,6 +79,7 @@ These findings demonstrate how publicly available information can reveal details
 |9|http://library.cusat.ac.in/cat/2013/|inurl: intitle:"Maths"|
 |10|https://www.williamle.com/staticstuff/Textbooks/	|inurl: intitle:"Maths"|
 
+These results highlight how publicly accessible documents and directories can be located using search engines. While some resources may be intentionally public, others could reveal information that was not intended for public access.
 
 ## 4.3 Network Scanning with Zenmap
 
