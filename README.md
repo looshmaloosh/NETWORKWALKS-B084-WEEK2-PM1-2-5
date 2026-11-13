@@ -48,8 +48,33 @@ Wafw00f identified ModSecurity (SpiderLabs) as the website's Web Application Fir
 
 These findings demonstrate how publicly available information can reveal details about a website's technologies, infrastructure, and security configuration.
 
-## 4.2 Footprinting & Reconnaissance
-(BUFFER)
+## 4.2 Footprinting with Google Dorking
+| No | Link | Relevant Dork |
+|---|---|-------------------|
+|1|http://144.129.11.86:88/cgi-bin/guestimage.html|"Camera Live Image" inurl:"guestimage.html"|
+|2|http://208.105.211.147:9247/#view|intitle:”Live View / - AXIS|
+|3|http://109.233.191.130:8080/|inurl:view/view.shtml|
+|4|http://camp850.com/sub06/cam.php|intitle:”Live View / - AXIS 206M”|
+|5|http://82.127.206.236/axis-cgi/mjpg/video.cgi?resolution=704x480&camera=1&dummy=1620387728755|inurl:indexFrame.shtml Axis|
+|6|http://24.39.107.185:8000/view/viewer_index.shtml?id=4322|inurl:indexFrame.shtml Axis|
+|7|http://212.41.248.38/indexFrame.shtml?newstyle=One&cam=4|intitle:Axis 2400 video server|
+|8|http://31.132.43.196:81/indexFrame.shtml?newstyle=One&cam=4|intitle:"Live View / — AXIS" | inurl:view/view.shtml|
+|9|http://80.152.138.183/ViewerFrame|inurl:ViewerFrame?Mode=Refresh|
+|10|http://188.69.136.122/Pages/login.htm?0.8335860804563987|intitle:"NoVus IP camera" -com|
+
+| No | Link | Relevant Dork |
+|---|---|-------------------|
+|1|https://education.giakonda.org.uk/Maths/|intitle:"Index of /maths"|
+|2|https://hub.melroseps.vic.edu.au/Maths/|intitle:"Index of /maths"|
+|3|http://meteck.org/files/|intitle:"Index of /maths"|
+|4|http://erewhon.superkuh.com/library/Math/|index of : "mathematics"|
+|5|https://theswissbay.ch/pdf/Books/Mathematics/|inurl: intitle:"Mathematics"|
+|6|https://theswissbay.ch/pdf/Gentoomen%20Library/Maths/|inurl: intitle:"Maths"|
+|7|https://lira.epac.to/DOCS-TECH/Math/Engineering%20and%20Applied/|intitle:index.of "mathematics.pdf"|
+|8|https://petermc.net/maths/olympiad/|inurl: intitle:"Maths"|
+|9|http://library.cusat.ac.in/cat/2013/|inurl: intitle:"Maths"|
+|10|https://www.williamle.com/staticstuff/Textbooks/	|inurl: intitle:"Maths"|
+
 
 ## 4.3 Network Scanning with Zenmap
 
