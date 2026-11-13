@@ -148,7 +148,26 @@ The network scanning activity involved using Zenmap to identify active hosts wit
 Overall, these activities strengthened my understanding of how information gathering and network discovery support cybersecurity assessments. I also learned the importance of documenting findings clearly, identifying potential risks, and providing appropriate security recommendations. All activities were conducted within the authorised scope of the internship, reinforcing the importance of ethical and responsible security testing.
 
 # 8. Evidences Collected
-(BUFFER)
+![](screenshots/whois.png)
+
+
+![](screenshots/whatweb.png)
+
+
+![](screenshots/nslookup.png)
+
+
+![](screenshots/curl.png)
+
+
+![](screenshots/wafw00f.png)
+
+
+![](screenshots/dnsrecon.png)
+
+
+![](screenshots/zenmap.png)
+
 
 ## 9. Challenges
 
