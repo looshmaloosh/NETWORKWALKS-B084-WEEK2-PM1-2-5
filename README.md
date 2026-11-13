@@ -106,10 +106,19 @@ Overall, this activity demonstrated how network scanning can identify active hos
 
 # 5. Risk Analysis / Impact
 
-(BUFFER)
+| Finding | Potential Impact | Risk Level | Evidence |
+|---|---|-------------------|-----------------|
+|Website Technology Disclosure| Identified technologies such as WordPress and Apache could help attackers research known vulnerabilities affecting specific software versions.| Low | WhatWeb scan and Curl HTTP headers |
+|
+
+Low
+
+WhatWeb scan and Curl HTTP headers
 
 # 6. Recommendations
-(BUFFER)
+
+| No | Link | Relevant Dork |
+|---|---|-------------------|
 
 
 # 7. Conclusion/Lessons Learned
